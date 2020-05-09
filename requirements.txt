@@ -19,9 +19,7 @@ python-jose==3.1.0
 requests==2.23.0
 rsa==4.0
 six==1.14.0
-smclib==1.8.3
 SQLAlchemy==1.3.16
-tf2-py==0.6.5
 topic-tools==1.14.3
 urdfdom-py==0.4.0
 urllib3==1.25.9
