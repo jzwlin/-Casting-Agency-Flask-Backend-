@@ -16,8 +16,6 @@ pyasn1==0.4.8
 python-dateutil==2.8.1
 python-editor==1.0.4
 python-jose==3.1.0
-qt-gui==0.3.11
-qt-gui-py-common==0.3.11
 requests==2.23.0
 rqt-gui==0.5.0
 rqt-gui-py==0.5.0
