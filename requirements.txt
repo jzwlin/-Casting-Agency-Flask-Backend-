@@ -2,8 +2,6 @@ alembic==1.4.2
 angles==2.0
 certifi==2020.4.5.1
 chardet==3.0.4
-diagnostic-updater==1.9.3
-ecdsa==0.15
 Flask==1.1.2
 Flask-Cors==3.0.8
 Flask-Migrate==2.5.3
