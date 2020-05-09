@@ -17,15 +17,10 @@ python-dateutil==2.8.1
 python-editor==1.0.4
 python-jose==3.1.0
 requests==2.23.0
-rqt-gui==0.5.0
-rqt-gui-py==0.5.0
 rqt-py-console==0.4.8
 rqt-runtime-monitor==0.5.7
-rqt-shell==0.4.9
-rqt-top==0.4.8
 rqt-web==0.4.8
 rsa==4.0
-sensor-msgs==1.12.7
 six==1.14.0
 smach==2.0.1
 smclib==1.8.3
