@@ -1,6 +1,5 @@
 alembic==1.4.2
 angles==2.0
-bondpy==1.8.3
 camera-calibration==1.13.0
 camera-calibration-parsers==1.11.13
 catkin==0.7.17
