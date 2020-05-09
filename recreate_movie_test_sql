@@ -1,0 +1,3 @@
+dropdb movie_actor
+createdb movie_actor 
+psql movie_actor < movie_actor.psql 
