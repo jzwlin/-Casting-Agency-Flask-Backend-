@@ -2,8 +2,6 @@ alembic==1.4.2
 angles==2.0
 certifi==2020.4.5.1
 chardet==3.0.4
-controller-manager-msgs==0.15.1
-cv-bridge==1.13.0
 diagnostic-updater==1.9.3
 ecdsa==0.15
 Flask==1.1.2
