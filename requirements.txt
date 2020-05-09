@@ -17,9 +17,6 @@ python-dateutil==2.8.1
 python-editor==1.0.4
 python-jose==3.1.0
 requests==2.23.0
-rqt-py-console==0.4.8
-rqt-runtime-monitor==0.5.7
-rqt-web==0.4.8
 rsa==4.0
 six==1.14.0
 smach==2.0.1
