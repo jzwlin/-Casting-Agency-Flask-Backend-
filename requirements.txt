@@ -7,14 +7,12 @@ Flask-Cors==3.0.8
 Flask-Migrate==2.5.3
 Flask-Script==2.0.6
 Flask-SQLAlchemy==2.4.1
-gencpp==0.6.2
 geneus==2.2.6
 genlisp==0.4.16
 genmsg==0.5.12
 gennodejs==2.0.1
 genpy==0.6.8
 idna==2.9
-image-geometry==1.13.0
 itsdangerous==1.1.0
 Jinja2==2.11.2
 jose==1.0.0
