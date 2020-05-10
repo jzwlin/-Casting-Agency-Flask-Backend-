@@ -1,4 +1,5 @@
 import os
+from boto.s3.connection import S3Connection
 import json
 from flask import request, _request_ctx_stack, abort
 from functools import wraps
@@ -6,9 +7,10 @@ from jose import jwt
 from urllib.request import urlopen
 
 
-AUTH0_DOMAIN = os.environ['AUTH0_DOMAIN']
-ALGORITHMS = os.environ['ALGORITHMS']
-API_AUDIENCE = os.environ['API_AUDIENCE']
+AUTH0_DOMAIN = S3Connection(os.environ['AUTH0_DOMAIN'])
+ALGORITHMS = S3Connection(os.environ['ALGORITHMS'])
+API_AUDIENCE = S3Connection(os.environ['API_AUDIENCE'])
+print(AUTH0_DOMAIN)
 
 ## AuthError Exception
 '''
