@@ -1,5 +1,10 @@
 # Full Stack Movie Actor Backend
 
+## Introduction 
+
+Our application is hosted live via Heroku with URL: https://myappcapstone1.herokuapp.com/ 
+
+
 ## Getting Started
 
 ### Installing Dependencies
