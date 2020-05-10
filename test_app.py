@@ -43,7 +43,7 @@ class MovieTestCase(unittest.TestCase):
             self.db.init_app(self.app)
             # create all tables
             # uncomment it at the first run
-            self.db.create_all()
+            #self.db.create_all()
 
     def tearDown(self):
         """Executed after reach test"""
