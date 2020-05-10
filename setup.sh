@@ -1,3 +1,4 @@
+#!/bin/bash
 export ALGORITHMS=RS256
 export API_AUDIENCE=movie_project
 export AUTH0_DOMAIN=fsnd-coffee-project.auth0.com
