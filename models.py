@@ -6,7 +6,7 @@ from env_var import find_key
 
 database_name = os.environ['database_name']
 database_path = os.environ['database_path']
-database_url = os.environ['DATABASE_URL']
+database_url = os.environ['HEROKU_POSTGRESQL_BROWN_URL']
 
 db = SQLAlchemy()
 
