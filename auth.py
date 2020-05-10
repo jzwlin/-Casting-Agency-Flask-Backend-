@@ -7,10 +7,12 @@ from jose import jwt
 from urllib.request import urlopen
 
 
+'''
 #AUTH0_DOMAIN = S3Connection(os.environ['AUTH0_DOMAIN'])
 #ALGORITHMS = S3Connection(os.environ['ALGORITHMS'])
 #API_AUDIENCE = S3Connection(os.environ['API_AUDIENCE'])
 #print(AUTH0_DOMAIN)
+'''
 
 AUTH0_DOMAIN = os.environ['AUTH0_DOMAIN']
 ALGORITHMS = os.environ['ALGORITHMS']
