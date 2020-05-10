@@ -2,7 +2,8 @@
 
 ## Introduction 
 
-Our application is hosted live via Heroku with URL: https://myappcapstone1.herokuapp.com/ 
+This project is to provide information about actors and movies.
+Our application API is hosted live via Heroku with URL: https://myappcapstone1.herokuapp.com/ 
 
 
 ## Getting Started
@@ -98,9 +99,28 @@ There are total 8 endpoints in this projects:
 There are 3 roles in the project: Casting Assisnt, Casting Director, and Exectuive Producer 
 
 Here is the permission table for each role: 
-Casting Assistant: 1,2
-Casting Director: 1,2,3,5,7,8
-Exectuive Producer: 1,2,3,4,5,6,7,8 
+
+Casting Assistant: 
+1. GET /actors
+2. GET /movies 
+
+Casting Director: 
+1. GET /actors
+2. GET /movies
+3. DELETE /actors/
+5. POST /actors/
+7. PATCH  /actors/
+8. PATCH /actors/
+
+Exectuive Producer:
+1. GET /actors
+2. GET /movies
+3. DELETE /actors/
+4. DELETE /movies/
+5. POST /actors/
+6. POST/movies/
+7. PATCH  /actors/
+8. PATCH /actors/
 
 
 ## Testing
