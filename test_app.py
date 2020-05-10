@@ -21,7 +21,7 @@ class MovieTestCase(unittest.TestCase):
         self.app = create_app()
         self.client = self.app.test_client
         self.database_name = 'movie_test'
-        self.database_path = os.environ['database_path']
+        self.database_path = os.environ['DATABASE_URL']
         setup_db(self.app)
 
         # new variable
